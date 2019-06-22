@@ -6,7 +6,7 @@ body {
 	font-family: sans-serif;
 	color: white;
 	min-height: 100vh;
-	background-image: url("img/retro-wave-bg4.jpg");
+	background-image: url("retro-wave-bg4.jpg");
 	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire */
