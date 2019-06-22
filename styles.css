@@ -1,4 +1,4 @@
-* {
+ * {
 	box-sizing: border-box;
 }
 
@@ -148,4 +148,18 @@ nav .menu  {
 
 footer {
 	font-family: 'Ubuntu Mono', monospace;
+	margin: 15px 0 15px 0;
+	text-align: center;
+}
+
+@media (orientation: landscape) {
+	nav {
+		height: 40%;
+	}
+}
+
+@media (min-width: 700px) {
+	nav {
+		height: 45%;
+	}
 }
