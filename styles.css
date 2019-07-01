@@ -108,6 +108,11 @@ section.nav {
 	border: solid 1px fuchsia;
 	border-radius: 10px;
 }
+.social-media a:active {
+	background-color: fuchsia;
+	color: #000;
+	border-color: white;
+}
 nav.menu  {
 	display: flex;
 	flex-direction: column;
