@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Zergost</title>
@@ -16,21 +16,21 @@
 	</header>
 
 	<section>
-		<div class="about">	
-			<img class="zergost-img" src="img/zergost-edit.png">
+		<article class="about">	
+			<img class="zergost-img" src="zergost-edit.png">
 			<h2>About this Music Project</h2>
 			<p>
 				My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. You the first motherfucker to get shot. You understand?
 			</p>
-		</div>
-		<div class="cloud">
+		</article>
+		<aside class="cloud">
 			<p>Check out my project on SoundCloud</p>
 			<a href="https://soundcloud.com/zergost">
 			<i class="fab fa-soundcloud cloud"></i></a>
-		</div>
+		</aside>
 	</section>
 
-	<nav>
+	<section class="nav">
 		<div class="above">
 			<div class="social-media">
 				<a href="https://twitter.com/DevHigbee"><i class="fab fa-twitter twit"></i></a>
@@ -39,19 +39,25 @@
 				<a href="https://www.youtube.com/user/GuitarHero89/"><i class="fab fa-youtube tube"></i></a>
 			</div>
 
-			<div class="menu">
+			<nav class="menu">
 				<ul>
-					<li>HOME</li>
+					<li onclick="clickListItem()">HOME</li>
 					<li>ART</li>
 					<li>CONTACT</li>
 				</ul>
-			</div>
+			</nav>
 		</div>
-	</nav>
+	</section>
 	
 	<footer>
 		Website by Kyle Knutson
 	</footer>
+
+	<script type="text/javascript">
+		function clickListItem(e) {
+			alert('clicked!')
+		};
+	</script>
 
 </body>
 </html>

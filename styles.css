@@ -1,7 +1,6 @@
  * {
 	box-sizing: border-box;
 }
-
 body {
 	font-family: sans-serif;
 	color: white;
@@ -11,14 +10,13 @@ body {
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire */
 }
-
 header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: 60px;
-	background-color: rgba(0,0,0, .6); /*rgba(64, 63, 99, .6);*/
+	background-color: rgba(0,0,0, .7); /*rgba(64, 63, 99, .6);*/
 }
 /*
 font-family: 'Squada One', cursive;
@@ -29,107 +27,97 @@ header h1 {
 	color: fuchsia;
 	font-family: 'Squada One', cursive;
 }
-
 section {
 	display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .zergost-img {
 	width: 120px;
 	height: 120px;
 	margin: 10px 0;
 }
-
 .about {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 8px;
 }
-
 .about h2 {
 	font-weight: 700;
 	font-size: 1.5rem;
 	font-family: 'Squada One', cursive;
 }
-
 .about p {
 	/*margin: 30px 0;*/
-	margin: 10px 5% 0 5%;
+	margin: 8px;
 	padding: 10px;
 	line-height: 1.3;
-	border: solid 1px #fff;
+	border: solid 2px #fff;
 	border-radius: 5px;
-	background-color: rgba(0,0,0, 0.5);
+	background-color: rgba(0,0,0, 0.7);
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: 20px;
 }
-
-div.cloud {
+article.cloud {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
     padding: 15px 20px 15px 0;
 	width: 90%;
-	margin: 10px 0 10px 0;
-	background-color: rgba(0,0,0, 0.5);
+	margin: 8px;
+	background-color: rgba(0,0,0, 0.7);
 	border-radius: 5px;
 	border: solid 2px white;
 }
-
-div.cloud p {
+.cloud p {
 	color: #ff6e07;
 	font-size: 20px;
 	font-weight: 700;
 	font-family: 'Ubuntu Mono', monospace;
 }
-
-div.cloud a {
+.cloud a {
 	color: #ff6e07;
 	font-size: 40px;
 }
-
-nav {
-	height: 40vh;
+section.nav {
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
 }
-
-nav .above {
+.above {
 	display: flex;
 	justify-content: center;
 	height: 85%;
-	background-color: rgba(0,0,0, 0.5);
 }
-
-nav .social-media {
+.social-media {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	width: 40%;
-	margin: 5px;
-	background-color: rgba(0,0,0, 0.5);
+	width: 33%;
+	margin: 8px;
+	background-color: rgba(0,0,0, 0.7);
 	border-radius: 5px;
 	border: solid 2px white;
 }
-
 .social-media a {
 	font-size: 40px;
 	color: white;
+	padding: 10px;
+	border: solid 1px fuchsia;
+	border-radius: 10px;
 }
-
-nav .menu  {
+nav.menu  {
 	display: flex;
 	flex-direction: column;
-	width: 45%;
-	margin: 5px;
+	width: 55%;
+	margin: 8px;
 	border-radius: 5px;
 	border: solid 2px white;
+	background-color: rgba(0,0,0, 0.7);
 }
-
 .menu ul {
 	display: flex;
 	flex-direction: column;
@@ -137,29 +125,32 @@ nav .menu  {
 	height: 100%;
 	text-align: center;
 }
-
 .menu li {
 	margin: 10%;
 	font-size: 26px;
 	border-radius: 5px;
+	padding: 15px 0 15px 0;
 	border: solid 1px fuchsia;
 	font-family: 'Squada One', cursive;
 }
-
 footer {
 	font-family: 'Ubuntu Mono', monospace;
 	margin: 15px 0 15px 0;
 	text-align: center;
 }
-
 @media (orientation: landscape) {
 	nav {
-		height: 40%;
+		height: 30%;
 	}
 }
 
 @media (min-width: 700px) {
 	nav {
-		height: 45%;
+		height: 40%;
+	}
+	.zergost-img {
+		width: 160px;
+		height: 160px;
+		margin: 20px 0;
 	}
 }
