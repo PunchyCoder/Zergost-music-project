@@ -27,11 +27,11 @@ header h1 {
 	color: fuchsia;
 	font-family: 'Squada One', cursive;
 }
-section {
+/*section {
 	display: flex;
     flex-direction: column;
     align-items: center;
-}
+}*/
 .zergost-img {
 	width: 120px;
 	height: 120px;
@@ -59,7 +59,7 @@ section {
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: 20px;
 }
-article.cloud {
+aside.cloud {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -82,8 +82,7 @@ article.cloud {
 	font-size: 40px;
 }
 section.nav {
-	height: 70vh;
-	display: flex;
+	height: 60vh;
 	flex-direction: column;
 }
 .above {
@@ -118,20 +117,31 @@ nav.menu  {
 	border: solid 2px white;
 	background-color: rgba(0,0,0, 0.7);
 }
-.menu ul {
+nav ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	height: 100%;
 	text-align: center;
 }
-.menu li {
+nav li {
 	margin: 10%;
-	font-size: 26px;
-	border-radius: 5px;
-	padding: 15px 0 15px 0;
-	border: solid 1px fuchsia;
 	font-family: 'Squada One', cursive;
+}
+nav input[type=button] {
+	background-color: rgba(0,0,0, 0);
+	font-size: 1.75em;
+	font-weight: 700;
+	width: 100%;
+	color: fuchsia;
+	padding: 15px 0 15px 0;
+	border: solid 2px fuchsia;
+	border-radius: 5px;
+}
+nav input[type=button]:active {
+	background-color: fuchsia;
+	color: #000;
+	border-color: white;
 }
 footer {
 	font-family: 'Ubuntu Mono', monospace;
