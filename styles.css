@@ -1,11 +1,12 @@
  * {
 	box-sizing: border-box;
+	font-size: 12px;
 }
 body {
 	font-family: sans-serif;
 	color: white;
 	min-height: 100vh;
-	background-image: url("retro-wave-bg4.jpg");
+	background-image: url("img/retro-wave-bg4.jpg");
 	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire */
@@ -22,16 +23,30 @@ header {
 font-family: 'Squada One', cursive;
 font-family: 'Ubuntu Mono', monospace;
 */
-header h1 {
-	font-size: 36px;
+h1 {
+	font-size: 2.5em;
 	color: fuchsia;
 	font-family: 'Squada One', cursive;
+	letter-spacing: 10px;
+	margin: 5px;
 }
-/*section {
+h2 {
+	font-size: 2em;
+	font-family: 'Squada One', cursive;
+	letter-spacing: 5px;
+	margin: 5px;
+}
+h3 {
+	font-size: 1.7em;
+	font-family: 'Squada One', cursive;
+	letter-spacing: 10px;
+	margin: 5px;
+}
+section.info {
 	display: flex;
     flex-direction: column;
     align-items: center;
-}*/
+}
 .zergost-img {
 	width: 120px;
 	height: 120px;
@@ -80,6 +95,19 @@ aside.cloud {
 .cloud a {
 	color: #ff6e07;
 	font-size: 40px;
+	padding: 10px;
+	border: solid 1px #ff6e07;
+	border-radius: 5px;
+}
+.cloud a:active {
+	color: #000;
+	border: #fff;
+	background-color: #ff6e07;
+}
+.cloud a:hover {
+	color: #000;
+	border: #fff;
+	background-color: #ff6e07;
 }
 section.nav {
 	height: 60vh;
