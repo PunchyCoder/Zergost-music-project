@@ -141,6 +141,11 @@ section.nav {
 	color: #000;
 	border-color: white;
 }
+.social-media a:hover {
+	background-color: fuchsia;
+	color: #000;
+	border-color: white;
+}
 nav.menu  {
 	display: flex;
 	flex-direction: column;
@@ -173,6 +178,11 @@ nav input[type=button] {
 	border-radius: 5px;
 }
 nav input[type=button]:active {
+	background-color: fuchsia;
+	color: #000;
+	border-color: white;
+}
+nav input[type=button]:hover {
 	background-color: fuchsia;
 	color: #000;
 	border-color: white;
