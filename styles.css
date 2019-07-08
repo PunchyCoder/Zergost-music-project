@@ -6,7 +6,7 @@ body {
 	font-family: sans-serif;
 	color: white;
 	min-height: 100vh;
-	background-image: url("retro-wave-bg4.jpg");
+	background-image: url("img/retro-wave-bg4.jpg");
 	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire */
@@ -171,6 +171,7 @@ nav input[type=button] {
 	background-color: rgba(0,0,0, 0);
 	font-size: 1.75em;
 	font-weight: 700;
+	font-family: 'Ubuntu Mono', monospace;
 	width: 100%;
 	color: white;
 	padding: 15px 0 15px 0;
@@ -183,6 +184,29 @@ nav input[type=button]:active {
 	border-color: white;
 }
 nav input[type=button]:hover {
+	background-color: fuchsia;
+	color: #000;
+	border-color: white;
+}
+nav a {
+	display: inherit;
+	background-color: rgba(0,0,0, 0);
+	font-size: 1.75em;
+	font-weight: 700;
+	font-family: 'Ubuntu Mono', monospace;
+	width: 100%;
+	color: white;
+	padding: 15px 0 15px 0;
+	border: solid 2px fuchsia;
+	border-radius: 5px;
+	text-decoration: none;
+}
+nav a:active {
+	background-color: fuchsia;
+	color: #000;
+	border-color: white;
+}
+nav a:hover {
 	background-color: fuchsia;
 	color: #000;
 	border-color: white;
